@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.frameworks    = "CoreBluetooth"
   s.dependency "AWSIoT"
-  s.dependency "CBORCoding"
+  s.dependency 'CBORCoding', '~> 1.4.0'
 end
